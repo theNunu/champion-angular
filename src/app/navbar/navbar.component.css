@@ -1,0 +1,22 @@
+    nav {
+        display: flex;
+        justify-content: space-around; /*centrar contenido (a)*/ 
+        background-color: black;
+        color: whitesmoke;
+        padding: 10px;
+        /* rounder: 2px; */
+        border-radius: 15px;
+
+    }
+
+    nav a {
+        color:  white;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+
+
+    nav a.active {
+        color: red;
+        text-decoration:  underline;
+    }

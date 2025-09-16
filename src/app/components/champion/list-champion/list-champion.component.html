@@ -1,0 +1,18 @@
+<p>list-champion works!</p>
+
+<ul>
+    @for(champion of champions(); track champion.id; let idx = $index){
+
+    <li>
+        {{ idx + 1 }} .-
+        {{ champion.name }}
+        {{ champion.rol }}
+        <strong >
+            {{ champion.description }}
+        </strong>
+    </li>
+    }
+
+
+
+</ul>

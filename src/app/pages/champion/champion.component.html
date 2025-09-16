@@ -1,0 +1,15 @@
+
+<p>champion works!</p>
+
+
+<div class="container-add">
+    <app-add-champion
+    (newChampion)="championService.agregarCampeon($event)"
+    />
+</div>
+
+<div class="container-list">
+    <app-list-champion 
+    [champions]="championService.champions()" 
+    />
+</div>

@@ -1,0 +1,13 @@
+<p>add-champion works!</p>
+
+<h4>nombre: {{ nameChampion() }}, rol: {{ rolChampion() }}, descripcion: {{ descriptionChampion() }}</h4>
+
+<input type="text" class="form-control" placeholder="nombre" [value]="nameChampion()" (input)="nameChampion.set(txtName.value)"
+    #txtName />
+<input type="text" class="form-control mt-2" placeholder="apellido" [value]="rolChampion()"
+    (input)="rolChampion.set(txtRol.value)" #txtRol/>
+
+<input type="text" class="form-control mt-2" placeholder="apellido" [value]="descriptionChampion()"
+    (input)="descriptionChampion.set(txtDescription.value)" #txtDescription/>
+
+<button class="mt-2 btn btn-primary" (click)="agregarCampeon()">presionar</button>

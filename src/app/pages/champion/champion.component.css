@@ -1,0 +1,23 @@
+.container-add {
+    background-color: rgb(222, 225, 225);
+    width: 45%;
+    padding: 10px;
+
+    border-style:solid;
+    border-color: black;
+    border-radius: 12px; /* REDONDEAR */
+}
+
+.container-list {
+    background-color: rgb(222, 225, 225);
+    width: 45%;
+     padding: 10px;
+
+    position: absolute;
+    left: 700px;
+    margin-top: -75px;
+
+    border-style:solid;
+    border-color: black;
+    border-radius: 12px; /* REDONDEAR */
+}
