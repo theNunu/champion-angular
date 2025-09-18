@@ -11,4 +11,6 @@ export class ListChampionComponent {
 
   champions = input.required<Champion[]>()
 
+ 
+
 }

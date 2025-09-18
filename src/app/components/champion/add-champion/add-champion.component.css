@@ -1,0 +1,11 @@
+input {
+    padding: 10px;
+    display: block; /* clave para el vertical formulario*/
+    margin-bottom: 12px;  /* clave para el vertical formulario*/
+    width: 40%;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    
+}

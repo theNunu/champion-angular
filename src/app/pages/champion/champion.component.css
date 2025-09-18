@@ -9,9 +9,10 @@
 }
 
 .container-list {
+    display: ruby-base;
     background-color: rgb(222, 225, 225);
     width: 45%;
-     padding: 10px;
+    padding: 10px;
 
     position: absolute;
     left: 700px;
