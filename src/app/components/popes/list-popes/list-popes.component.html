@@ -1,0 +1,31 @@
+<p>list-popes works!</p>
+@for(p of papas(); track p.id; let idx = $index){
+
+<li>
+  {{ idx + 1 }} .-
+  {{ p.name }}
+
+  <strong>
+    {{ p.description }}
+  </strong>
+</li>
+}
+
+
+<br>
+<hr>
+@for(p of papas(); track p.id; let idx = $index){
+
+<div class="otro-listado-papas">
+
+
+  <h2>{{ idx + 1 }} .- {{ p.name }}</h2>
+
+  <p>
+    {{ p.description }}
+
+  </p>
+
+</div>
+
+}

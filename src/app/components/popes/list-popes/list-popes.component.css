@@ -1,0 +1,29 @@
+.otro-listado-papas {
+    background-color: rgb(197, 174, 230);
+    padding: 30px;
+    width: 200px;
+
+    border-style:solid;
+    border-color: black;
+    border-radius: 12px; /* REDONDEAR */
+
+    margin-top: 4%;
+
+  text-align: center;
+}
+
+h2 {
+
+    color: #066e29;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+
+    margin-top: -10%;
+
+    
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,1 +1,21 @@
 <p>popes works!</p>
+
+<div class="popes-principal">
+
+    <div class="agregar-papas">
+        <app-add-popes />
+
+
+    </div>
+
+    <div class="listar-papas">
+        <app-list-popes
+        [papas]="popesService.popes()"
+        />
+
+    </div>
+
+
+
+
+</div>
