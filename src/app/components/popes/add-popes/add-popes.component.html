@@ -1,1 +1,9 @@
 <p>add-popes works!</p>
+
+<input type="text" class="form-control" placeholder="nombre" [value]="namePope()" (input)="namePope.set(txtName.value)"
+    #txtName />
+
+<input type="text" class="form-control mt-2" placeholder="descripcion" [value]="descriptionPope()"
+    (input)="descriptionPope.set(txtDescription.value)" #txtDescription/>
+
+<button class="mt-2 btn btn-primary" (click)="agregarPapa()">presionar</button>

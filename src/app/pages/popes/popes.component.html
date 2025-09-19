@@ -3,7 +3,8 @@
 <div class="popes-principal">
 
     <div class="agregar-papas">
-        <app-add-popes />
+        <app-add-popes 
+        (newPope)="popesService.agregarPapa($event)"/>
 
 
     </div>

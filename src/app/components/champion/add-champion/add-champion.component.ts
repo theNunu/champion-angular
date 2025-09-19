@@ -30,6 +30,7 @@ export class AddChampionComponent {
     }
 
     this.newChampion.emit(nuevoCampeon)
+    this.resetFields()
 
   }
 

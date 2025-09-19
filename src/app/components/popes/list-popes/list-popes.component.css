@@ -1,5 +1,5 @@
 .otro-listado-papas {
-    background-color: rgb(197, 174, 230);
+    background-color: black;
     padding: 30px;
     width: 200px;
 
@@ -9,7 +9,11 @@
 
     margin-top: 4%;
 
-  text-align: center;
+   text-align: center;
+
+    border-style:solid;
+    border-color: white;
+    border-radius: 12px; /* REDONDEAR */
 }
 
 h2 {
@@ -26,4 +30,13 @@ h2 {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista {
+  display: flex;          /* activa Flexbox */
+  flex-wrap: wrap;        /* permite que los items se vayan abajo si no hay espacio */
+  gap: 40px;              /* espacio entre los elementos */
+  list-style: none;       /* quita los puntos de la lista */
+  padding: 0;
+  margin: 0;
 }
